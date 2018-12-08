@@ -133,3 +133,40 @@ input[type="submit"] {
 	background-color: white;
 	color: #2c71b8;
 }
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 38px;
+    left: 930px;
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#2c71b8;
+    left:11px;
+    top:6px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:5px;
+    height:3px;
+    background-color:#2c71b8;
+    left:6px;
+    top:12px;
+    margin: 0px;
+     padding: 0px;
+}
+.checkmark >div:hover .submenu{
+	background-color: white;
+}
